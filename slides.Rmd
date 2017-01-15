@@ -5,9 +5,10 @@ author   : "Kevin Ushey"
 date     : "`r Sys.Date()`"
 output   :
   ioslides_presentation:
-    css: styles.css
-    fig_width : 5
-    fig_height: 4
+    css           : styles.css
+    fig_width     : 5
+    fig_height    : 4
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
